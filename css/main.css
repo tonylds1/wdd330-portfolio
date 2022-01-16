@@ -1,0 +1,42 @@
+  .container {
+    display: flex;
+  }
+  
+  .row {
+    display: flex;
+    flex-flow: row;
+  }
+  
+  .column {
+    display: flex;
+    flex-flow: column;
+    margin-left: 32px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 8px;
+  }
+  
+  .train {
+    width: 300px;
+  }
+  
+  .train__result, .detect__result {
+    margin-top: 16px;
+  }
+  
+  .table .body__row, .table .header__row {
+    display: flex;
+    flex-flow: row;
+  }
+  
+  .table .body__cell, .table .header__cell {
+    padding: 4px;
+    width: 200px;
+  }
+  
+  textarea {
+    height: 130px;
+  }

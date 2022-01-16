@@ -6,19 +6,25 @@ const links = [
     {
         label: "Week2 notes",
         url: "week02/index.html"
-      }
+    },
+    {
+          label: "Week3 notes",
+          url: "week02/index.html"
+    }
   ]
 
   links.forEach(link => {
       var text = document.createTextNode(link.label);
 
       var a = document.createElement('a');
-      $(a).attr('href',link.url).attr('text', link.label);
-      $(a).append(text);
+      console.log(a);
+      a.setAttribute('href',link.url);
+      a.setAttribute('text', link.label);
+      a.append(text);
 
       var li = document.createElement("li");
       li.appendChild(a);
 
-      $("#week-list").append(li);
+      document.getElementById("week-list").append(li);
 
   })
