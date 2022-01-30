@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 01 Exercises and Notes<</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+  <div class="container">
+    
+    <section>
+        <h1>Week03 - Notes</h1>
+        <ul>
+            <li>
+                <div>
+                    <h2> About Calling Methods</h2>
+                    <p>
+                        object.method() is equivalent to object['method']()
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>About properties</h2>
+                    <p>
+                        use the method hasOwnProperty for checking if a property exists.
+                    </p>
+                    <p>
+                        each property is like an element of an array/dictionary that have a key and a value.
+                    </p>
+                    <p>
+                        we can add and remove properties on the fly. It works even with those declared with const.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>JSON vs literal notation</h2>
+                    <p>
+                        for Json: double-quoted property names, restricter values allowed and  methods not allowed
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>Built-in Objects</h2>
+                    <p>
+                        Math is a built in object that brings many mathmaticals skills.
+                    </p>
+                    <p>Another Built-in objects: Date, RegExp</p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>About DOM</h2>
+                    <p>
+                        document is the root object.
+                    </p>
+                    <p>class, name and ids could be used to retrive html elements</p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>Element Searching</h2>
+                    <p>
+                        querySelector and querySelectorAll look for css selectors to retorn eleents
+                    </p>
+                    <p>
+                        ATENTION: when we are looking for an element and there is more than one option for the query, the querySelector will return just the last one.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>About Camel Case Properties</h2>
+                    <p>
+                    dashes are not leval characters in property names and should be turn into camel case.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>Keyboards and Mouse events</h2>
+                    <p>
+                        keydown, keypress, keyup and many others allow us to capture keyboards typing events. The same could be done with the mouse but the events names are different.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>Removing Event Listeners</h2>
+                    <p>
+                        it is useful to unbind events already binded.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>Event Propagation</h2>
+                    <p>
+                        An event is propagated throught its parent elements
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </section>
+    
+    <section class="questions">
+        <h1>Week03 - Questions</h1>
+        <ul>
+            <li>
+                <div>
+                    <h2> About Classes</h2>
+                    <p>
+                        if we have an object probably we should have a defition to that object, or in other words, a class. Is that true?
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>Pure javascript vs jquery</h2>
+                    <p>
+                        The text tell us to use queryselector or getElementById. If I were using jquery I could use simple $('...') to get the element. There is real professionals projects that use queryselector nowadays?
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>Where to bind the events</h2>
+                    <p>
+                        We can bind an event to an element at the same element using on{Event}="...". There is a rule to decide where is the better place?
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>Binding events</h2>
+                    <p>
+                        There is any method that list all event binded by the user? In other words, events not default?
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </section>
+  </div>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
